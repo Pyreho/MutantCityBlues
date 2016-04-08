@@ -67,7 +67,7 @@ public class Application {
 		for (Power power : shortestPath) {
 			System.out.println(power.getName());
 		}
-		System.out.println("The cost of buying the those two abilities only (leapfrogging everything else) is: " + minimumCostOfPath(shortestPath));
+		System.out.println("The cost of buying those two abilities only (leapfrogging everything else) is: " + minimumCostOfPath(shortestPath));
 	}
 	
 	public static Map<String, Power> getPowerGraph() {
